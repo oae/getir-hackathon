@@ -1,0 +1,22 @@
+{
+  "name": "getir-hackathon-app",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Getir hackathon app",
+  "author": "Team Unknown",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.14.1",
+    "mongoose": "^5.0.4",
+    "morgan": "^1.8.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "nodemon": "^1.11.0"
+  }
+}
